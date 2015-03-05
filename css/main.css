@@ -33,15 +33,13 @@ div {
   width: 200px;
 
   background-color: limegreen;
-  max-height: 0;
-  overflow: hidden;
-  transition:all 200ms linear;
 
 }
 
 .js-box-show {
-  max-height: 5em;
+  
 }
+
 
 .diamond {
   height: 80px;
@@ -53,6 +51,10 @@ div {
   transform: rotate(45deg);
 }
 
+.js-diamond-move{
+
+}
+
 .panel {
   width: 250px;
   top: 50%;
@@ -62,6 +64,10 @@ div {
 
   color: darkgoldenrod;
   text-align: center;
+}
+
+js-panel-collapse {
+
 }
 
 .panel h2 {
