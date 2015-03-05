@@ -5,7 +5,6 @@ html {
 body {
   margin: 2em auto;
   max-width: 35em;
-
   background-color: #fff;
   border: 1px solid #ccc;
 }
@@ -13,7 +12,6 @@ body {
 section {
   padding: 4em 1em;
   position: relative;
-
   border-bottom: 1px solid #ccc;
   overflow: hidden;
 }
@@ -86,6 +84,79 @@ div {
   width: 100px;
   background-color: orange;
   border-radius: 50%;
+}
+
+.js-ball-bounce{
+  -webkit-animation: ball-bounce 1s linear;
+  animation: ball-bounce 1s linear;
+}
+
+@-webkit-keyframes ball-bounce {
+  
+  0% {
+    top:calc(50% - 50px);
+    right:1em;
+  }
+
+  25% {
+    top:calc(50% - 60px);
+    right:2em;
+  }
+  
+  50% {
+    top:calc(50% - 50px);
+    right:3em;
+  }
+
+  75% {
+    top:calc(50% - 60px);
+    right:4em;
+  }
+  
+  90% {
+    top:calc(50% - 50px);
+    right:5em;
+  }
+
+  100% {
+    top:calc(50% - 50px);
+    right:6em;
+
+  }
+}
+
+@keyframes ball-bounce {
+  
+  0% {
+    top:calc(50% - 50px);
+    right:1em;
+  }
+
+  25% {
+    top:calc(50% - 60px);
+    right:2em;
+  }
+  
+  50% {
+    top:calc(50% - 75px);
+    right:3em;
+  }
+
+  75% {
+    top:calc(50% - 60px);
+    right:4em;
+  }
+  
+  90% {
+    top:calc(50% - 75px);
+    right:5em;
+  }
+
+  100% {
+    top:calc(50% - 50px);
+    right:6em;
+
+  }
 }
 
 .list {
