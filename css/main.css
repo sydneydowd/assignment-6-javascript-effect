@@ -32,11 +32,13 @@ div {
   top: calc(50% - 50px);
   width: 200px;
   background-color: limegreen;
+  opacity: 0;
+  transition: all 200ms linear;
 
 }
 
 .js-box-show {
-  
+  opacity: 1;
 }
 
 
@@ -60,11 +62,14 @@ div {
   transform: translateY(-50%);
   color: darkgoldenrod;
   text-align: center;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 200ms linear;
 
 }
 
-js-panel-collapse {
-
+.js-panel-collapse {
+  max-height: 10em;
 }
 
 .panel h2 {

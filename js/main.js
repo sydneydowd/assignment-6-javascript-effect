@@ -1,10 +1,10 @@
-var $btnShow = $('.btn-show');
+var $btnShow = $('.btn-show-hide');
 var $box = $('.box');
 
 var $btnMove = $('.btn-move');
 var $diamond = $('.diamond');
 
-var $btnCollapse = $('.btn-collapse');
+var $btnCollapse = $('.btn-collapse-expand');
 var $panel = $('.panel');
 
 
