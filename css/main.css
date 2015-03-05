@@ -31,7 +31,6 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 200px;
-
   background-color: limegreen;
 
 }
@@ -46,8 +45,7 @@ div {
   right: 2em;
   top: calc(50% - 40px);
   width: 80px;
-
-  background-color: hotpink;
+   background-color: hotpink;
   transform: rotate(45deg);
 }
 
@@ -58,12 +56,11 @@ div {
 .panel {
   width: 250px;
   top: 50%;
-
   background-color: yellow;
   transform: translateY(-50%);
-
   color: darkgoldenrod;
   text-align: center;
+
 }
 
 js-panel-collapse {
@@ -79,7 +76,6 @@ js-panel-collapse {
   height: 100px;
   top: calc(50% - 50px);
   width: 100px;
-
   background-color: orange;
   border-radius: 50%;
 }
@@ -92,7 +88,6 @@ js-panel-collapse {
   right: 1em;
   top: 1em;
   width: 250px;
-
   border: 1px solid #ccc;
   overflow: hidden;
   overflow-y: auto;
@@ -100,9 +95,7 @@ js-panel-collapse {
 
 .list li {
   padding: 0.5em;
-
   background-color: plum;
   border: 1px solid mediumpurple;
-
   color: mediumpurple;
 }
